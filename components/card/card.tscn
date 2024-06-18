@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=3 uid="uid://cacfyrmbuwgen"]
+
+[ext_resource type="Script" path="res://components/card/card.gd" id="1_gap1y"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_toa6j"]
+
+[node name="Card" type="Node2D"]
+position = Vector2(51, 47)
+scale = Vector2(11.769, 12.108)
+script = ExtResource("1_gap1y")
+metadata/_edit_group_ = true
+
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(3.14385, 6.02907)
+scale = Vector2(14.5, 19.5)
+texture = SubResource("CanvasTexture_toa6j")
+
+[node name="Label" type="Label" parent="."]
+offset_left = -2.29416
+offset_top = -5.20317
+offset_right = 37.7058
+offset_bottom = 82.7968
+scale = Vector2(0.249688, 0.250233)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 64
+text = "6"

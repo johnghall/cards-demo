@@ -1,3 +1,8 @@
-[gd_scene format=3 uid="uid://56654hppta6e"]
+[gd_scene load_steps=3 format=3 uid="uid://56654hppta6e"]
+
+[ext_resource type="Script" path="res://root.gd" id="1_dlwlx"]
+[ext_resource type="PackedScene" uid="uid://cacfyrmbuwgen" path="res://components/card/card.tscn" id="2_l3wpg"]
 
 [node name="Root" type="Node2D"]
+script = ExtResource("1_dlwlx")
+card_scene = ExtResource("2_l3wpg")
